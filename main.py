@@ -4,7 +4,7 @@ import csv
 import json
 
 # --- CONFIGURATION ---
-API_KEY = '876c78b22667bc7e1354369ff3ae169a31f9f27d78ae1ec880941cfe4e52edb5191fd34c5dfbd89b'  
+API_KEY = 'Insert_your_Key_here'  
 LOG_FILE = 'server_logs.txt'
 OUTPUT_FILE = 'threat_report.csv'
 ABUSE_DB_URL = 'https://api.abuseipdb.com/api/v2/check'
@@ -74,4 +74,5 @@ def main():
     print(f"\n[+] Analysis Complete! Report saved to '{OUTPUT_FILE}'")
 
 if __name__ == "__main__":
+
     main()
