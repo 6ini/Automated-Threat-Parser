@@ -1,9 +1,9 @@
 # Automated-Threat-Parser
 Python tool for automating ip's reputation using the abuseipdb api.
 
-# 🔍 Automated Threat Intelligence Parser
+#  Automated Threat Intelligence Parser
 
-### 📖 Project Overview
+###  Project Overview
 This tool automates the analysis of network logs by extracting IP addresses and cross-referencing them with **AbuseIPDB**, a global threat intelligence database. It helps SOC analysts quickly identify high-risk IPs without manual lookups.
 
 ### 🛠️ Features
@@ -12,7 +12,7 @@ This tool automates the analysis of network logs by extracting IP addresses and 
 * **Risk Scoring:** Filters out private IPs (192.168.x.x) and retrieves Abuse Confidence Scores, ISP info, and Country codes.
 * **Reporting:** Exports a structured CSV report (`threat_report.csv`) for further analysis.
 
-### 💻 Usage
+###  Usage
 ```python
 # 1. Add your API Key in main.py
 API_KEY = 'YOUR_KEY_HERE'
